@@ -1,0 +1,20 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: POST
+  headers:
+    Authorization:
+- #test_requirement_001用例
+  detail: 评估需求，创建一个"待管理员审批"的需求(status：3)
+  data:
+    automationRatio: 22 #需求可自动化比例
+    current_operator: "dwxbxntest3"
+    developmentDuration: 11 #预估开发(人/天)
+    docs: ""    #docs: "/97C1B6FB57691F4E6493E021EA0E084D/files/设备信息有误差.png"
+#    operationDuration: 33    #新版这个字段被去了
+    opinion: "This is opinion"
+    projectAppraisalDocument: "[]"
+#    roi: 55     #新版这个字段被去了
+#    saveTime: 44  #新版这个字段被去了
+    status: 3
+  resp:
+    code: 200

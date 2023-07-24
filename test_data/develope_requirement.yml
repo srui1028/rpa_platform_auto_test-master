@@ -1,0 +1,17 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 开发人员完成需求开发，需求状态仍为待发布(status：5)
+  data:
+    id: "xxxx"
+    projectDesc: "projectDesc"
+    projectName:  "YGA"  #流程名称！！!!!!!!
+    projectVersion: "1.0.0"
+    releaseIntroduce: "releaseIntroduce"
+    # "useFile" : ""
+    useIntroduce: "useIntroduce"
+  resp:
+    code: 200

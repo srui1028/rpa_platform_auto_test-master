@@ -1,0 +1,14 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 业务人员操作需求变更，状态变为“待确认变更”(status：11)
+  data:
+    current_operator: "youga_yewu"
+    failReason: "自动化测试需求变更，这是变更原因"
+    pass: false
+    status: 11
+  resp:
+    code: 0

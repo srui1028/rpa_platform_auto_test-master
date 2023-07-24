@@ -1,0 +1,302 @@
+{
+  "uid" : "f44f7cb90b629de8",
+  "name" : "Scenario 13 立即执行流程，选择一个空闲可用的机器人，会生成待运行or运行中的任务任务",
+  "fullName" : "test_case.test_requirements_line.TestRequirementLine#test_requirement",
+  "historyId" : "9a103f89c05abfa86dd860683ca23fc9",
+  "time" : {
+    "start" : 1652266005015,
+    "stop" : 1652266076873,
+    "duration" : 71858
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "rpa_platform_token",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616520,
+      "duration" : 255
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "cenpprop",
+    "time" : {
+      "start" : 1652266005012,
+      "stop" : 1652266005013,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_status_name",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "set_base_url",
+    "time" : {
+      "start" : 1652265616520,
+      "stop" : 1652265616520,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "is_isc",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "set_db_engine",
+    "time" : {
+      "start" : 1652265616520,
+      "stop" : 1652265616635,
+      "duration" : 115
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_env",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequirementLine",
+    "time" : {
+      "start" : 1652265616636,
+      "stop" : 1652265618689,
+      "duration" : 2053
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_status_type",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "add_allure_environment_property",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "set_user_header",
+    "time" : {
+      "start" : 1652265616635,
+      "stop" : 1652265616636,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRequirementLine::0",
+    "time" : {
+      "start" : 1652266148125,
+      "stop" : 1652266148125,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "add_allure_environment_property::0",
+    "time" : {
+      "start" : 1652266148140,
+      "stop" : 1652266148141,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "创建需求-流程-任务数据"
+  }, {
+    "name" : "tag",
+    "value" : "all"
+  }, {
+    "name" : "tag",
+    "value" : "requirement"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_requirements_line"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequirementLine"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PIMS4B6M"
+  }, {
+    "name" : "thread",
+    "value" : "26404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_requirements_line"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "confirm_develop_data",
+    "value" : "{'current_operator': 'dwxbtest006', 'developer': 'dwxbtest006', 'status': 5}"
+  }, {
+    "name" : "create_data",
+    "value" : "{'businessLabel': 'YGTAG', 'c0db23': '55', 'description': 'This is description', 'name': 'YGREQ0316005pc', 'operateStep': 'This is operateion Step', 'organization': 'xxxxxxxxxxxx', 'process_owner': 'dwxbxntest29', 'status': 1, 'useSystem': '系统3', 'userNum': '22'}"
+  }, {
+    "name" : "detail",
+    "value" : "'Scenario 13 立即执行流程，选择一个空闲可用的机器人，会生成待运行or运行中的任务任务'"
+  }, {
+    "name" : "estimate_data",
+    "value" : "{'automationRatio': 22, 'current_operator': 'dwxbxntest3', 'developmentDuration': 11, 'docs': '', 'opinion': 'This is opinion', 'projectAppraisalDocument': '[]', 'status': 3}"
+  }, {
+    "name" : "process_enable",
+    "value" : "{'currentVersionStatus': 1, 'name': 'a0e91b89-a65e-4aaa-84e9-a248a1b2c241', 'version': '1.0.0'}"
+  }, {
+    "name" : "process_estimate",
+    "value" : "{'approve': 1}"
+  }, {
+    "name" : "process_for_requriement_release",
+    "value" : "{'id': 'xxxx', 'projectDesc': 'projectDesc', 'projectName': 'YGA', 'projectVersion': '1.0.0', 'releaseIntroduce': 'releaseIntroduce', 'useIntroduce': 'useIntroduce'}"
+  }, {
+    "name" : "release_acceptance",
+    "value" : "{'failReason': 'string', 'pass': True, 'status': 7}"
+  }, {
+    "name" : "release_to_app_store",
+    "value" : "{'authorId': 3, 'authorName': 'admin', 'fileUrl': 'Process/26E002145BF9618DC6E7E0446BA7C68D/mrpas/DD.mrpax', 'iconData': 'default', 'id': 'xxxxxxxxxxxx', 'introduction': '3412', 'isPublic': 0, 'organizationIds': ['xxxxxxxxxx'], 'pluginId': 'XXXXXXXXXXXXXXX', 'pluginName': 'XX', 'resourceSn': 'XXXXXXXXXXXXXXXXXXXXX', 'tagIds': ['XXXXXXXXXXXXXXXX'], 'version': '1.0.0', 'versionDesc': 'introduction'}"
+  }, {
+    "name" : "resp",
+    "value" : "{'code': 200}"
+  }, {
+    "name" : "run_process",
+    "value" : "{'conditions': 'tmplAbeLea44cc21-1eac-4f97-8a57-cbafea3c5dee', 'deleted': 0, 'name': 'A_1.0.0', 'robotName': 1118403579721472, 'priority': 4, 'resourceSn': '211eacc5-a2d2-48fe-b4cd-c9e3aede9439', 'robotDistributionMode': 3, 'settings': '{\"assignUser\":{\"user\":\"M:undefined\",\"type\":1},\"priority\":4,\"executeTimeout\":0,\"executeRetries\":0,\"submitTimeout\":10,\"submitRetries\":0,\"params\":[],\"input\":[],\"output\":[],\"outputParams\":[],\"schedule\":{\"startDate\":null,\"startTime\":null,\"endDate\":null,\"endTime\":null,\"type\":0,\"minutes\":[],\"hours\":[],\"weeks\":[],\"months\":[],\"days\":[],\"orderWeek\":null,\"calendar\":{}},\"screencapture\":{\"enable\":0}}', 'status': 0, 'trigger': 0, 'type': 0}"
+  }, {
+    "name" : "select_robots_for_run_process",
+    "value" : "{'labelName': 'tmplAbeL2499546e-1d67-474d-abbb-095974a5109a', 'robotName': 'free'}"
+  }, {
+    "name" : "submit_data",
+    "value" : "{'current_operator': 'dwxbxntest4', 'status': 2}"
+  }, {
+    "name" : "verify_data",
+    "value" : "{'current_operator': 'dwxbxntest3', 'design': 1123512485363969, 'developer': 'dwxbtest006', 'pass': True, 'priority': 1, 'status': 4}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "all", "requirement" ]
+  },
+  "source" : "f44f7cb90b629de8.json",
+  "parameterValues" : [ "{'current_operator': 'dwxbtest006', 'developer': 'dwxbtest006', 'status': 5}", "{'businessLabel': 'YGTAG', 'c0db23': '55', 'description': 'This is description', 'name': 'YGREQ0316005pc', 'operateStep': 'This is operateion Step', 'organization': 'xxxxxxxxxxxx', 'process_owner': 'dwxbxntest29', 'status': 1, 'useSystem': '系统3', 'userNum': '22'}", "'Scenario 13 立即执行流程，选择一个空闲可用的机器人，会生成待运行or运行中的任务任务'", "{'automationRatio': 22, 'current_operator': 'dwxbxntest3', 'developmentDuration': 11, 'docs': '', 'opinion': 'This is opinion', 'projectAppraisalDocument': '[]', 'status': 3}", "{'currentVersionStatus': 1, 'name': 'a0e91b89-a65e-4aaa-84e9-a248a1b2c241', 'version': '1.0.0'}", "{'approve': 1}", "{'id': 'xxxx', 'projectDesc': 'projectDesc', 'projectName': 'YGA', 'projectVersion': '1.0.0', 'releaseIntroduce': 'releaseIntroduce', 'useIntroduce': 'useIntroduce'}", "{'failReason': 'string', 'pass': True, 'status': 7}", "{'authorId': 3, 'authorName': 'admin', 'fileUrl': 'Process/26E002145BF9618DC6E7E0446BA7C68D/mrpas/DD.mrpax', 'iconData': 'default', 'id': 'xxxxxxxxxxxx', 'introduction': '3412', 'isPublic': 0, 'organizationIds': ['xxxxxxxxxx'], 'pluginId': 'XXXXXXXXXXXXXXX', 'pluginName': 'XX', 'resourceSn': 'XXXXXXXXXXXXXXXXXXXXX', 'tagIds': ['XXXXXXXXXXXXXXXX'], 'version': '1.0.0', 'versionDesc': 'introduction'}", "{'code': 200}", "{'conditions': 'tmplAbeLea44cc21-1eac-4f97-8a57-cbafea3c5dee', 'deleted': 0, 'name': 'A_1.0.0', 'robotName': 1118403579721472, 'priority': 4, 'resourceSn': '211eacc5-a2d2-48fe-b4cd-c9e3aede9439', 'robotDistributionMode': 3, 'settings': '{\"assignUser\":{\"user\":\"M:undefined\",\"type\":1},\"priority\":4,\"executeTimeout\":0,\"executeRetries\":0,\"submitTimeout\":10,\"submitRetries\":0,\"params\":[],\"input\":[],\"output\":[],\"outputParams\":[],\"schedule\":{\"startDate\":null,\"startTime\":null,\"endDate\":null,\"endTime\":null,\"type\":0,\"minutes\":[],\"hours\":[],\"weeks\":[],\"months\":[],\"days\":[],\"orderWeek\":null,\"calendar\":{}},\"screencapture\":{\"enable\":0}}', 'status': 0, 'trigger': 0, 'type': 0}", "{'labelName': 'tmplAbeL2499546e-1d67-474d-abbb-095974a5109a', 'robotName': 'free'}", "{'current_operator': 'dwxbxntest4', 'status': 2}", "{'current_operator': 'dwxbxntest3', 'design': 1123512485363969, 'developer': 'dwxbtest006', 'pass': True, 'priority': 1, 'status': 4}" ]
+}

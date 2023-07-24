@@ -1,0 +1,13 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 禁用流程
+  data:
+    currentVersionStatus: 0
+    name: "xxxxxxxxx"  #    name: "a0e91b89-a65e-4aaa-84e9-a248a1b2c241"
+    version: "1.0.0"
+  resp:
+    code: 0

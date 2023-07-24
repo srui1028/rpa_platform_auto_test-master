@@ -1,0 +1,12 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: POST
+  headers:
+    Authorization:
+-
+  detail: 提交需求，创建一个"待管理员评估"的需求(status：2)
+  data:
+    current_operator: "dwxbxntest4"
+    status: 2
+  resp:
+    code: 200

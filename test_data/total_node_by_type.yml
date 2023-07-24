@@ -1,0 +1,58 @@
+-
+  url: /gateway/orc-serv/api/private/v1/nodes
+  method: GET
+  headers:
+    Authorization:
+- url: /gateway/orchcompact/robot-actuator/list
+  method: GET
+  headers:
+    Authorization:
+- url: /cap/data-way/v1/node/overview
+  method: GET
+  headers:
+    Authorization:
+- #获取总设备数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 验证全量设备信息，区分状态
+  zbody:
+    data:
+      page: 0
+      size: 1000
+      sort: createdAt,desc
+    resp:
+      code: 200
+  vzbody:
+    data:
+      page: 1
+      size: 1000
+#      isBound: false   #是否绑定许可证
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+    resp:
+      code: 200
+- #获取下钻后的总设备数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 获取下钻后的总设备数 ，区别状态（下钻后数不变，设备数不受组织影响）
+  zbody:
+    data:
+      page: 0
+      size: 1000
+      sort: createdAt,desc
+    resp:
+      code: 200
+  vzbody:
+    data:
+      page: 1
+      size: 1000
+#      isBound: false   #是否绑定许可证
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+      org_id: 1
+    resp:
+      code: 200

@@ -1,0 +1,75 @@
+-
+  url: /gateway/orc-serv/api/private/v1/executions/queue,/gateway/orc-serv/api/private/v1/executions/history
+  method: GET
+  headers:
+    Authorization:
+-
+  url: /gateway/orchcompact/executions/queue/search,/gateway/orchcompact/executions/history/search
+  method: GET
+  headers:
+    Authorization:
+- url: /cap/data-way/v1/task/overview/daily
+  method: GET
+  headers:
+    Authorization:
+- #获取总任务数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 验证数据概览页当日任务各个状态是否=中控+虚拟中控
+  zbody:
+    data:
+      page: 1
+      size: 10
+      sort: endAt,desc
+      query:
+      createdAt: #2022-05-11T00:00:00+08:00,2022-05-11T23:59:59+08:00
+      status: 2
+    resp:
+      code: 200
+  vzbody:
+    data:
+      page: 1
+      size: 10
+      startTriggeredAt: #2022-05-11 00:00:00
+      endTriggeredAt: #2022-05-11 23:59:59
+    resp:
+      code: 200
+  dbody:
+    data:
+#      org_id: 1
+#      site_code: SHDW
+      site_code: GWZB
+      start_time:
+      end_time:
+    resp:
+      code: 200
+- #获取总任务数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 按组织下钻验证数据概览页当日任务各个状态是否=中控+虚拟中控
+  zbody:
+    data:
+      page: 1
+      size: 10
+      sort: endAt,desc
+      query:
+      organizationIds: 1
+      createdAt: #2022-05-11T00:00:00+08:00,2022-05-11T23:59:59+08:00
+      status: 2
+    resp:
+      code: 200
+  vzbody:
+    data:
+      page: 1
+      size: 10
+      startTriggeredAt: #2022-05-11 00:00:00
+      endTriggeredAt: #2022-05-11 23:59:59
+      organizationList: 1
+    resp:
+      code: 200
+  dbody:
+    data:
+      org_id: 1
+#      site_code: SHDW
+      site_code: GWZB
+      start_time:
+      end_time:
+
+    resp:
+      code: 200

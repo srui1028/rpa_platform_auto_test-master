@@ -1,0 +1,13 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 创建一个验收通过的需求(status：7)
+  data:
+    failReason: "string"
+    pass: true
+    status: 7
+  resp:
+    code: 200

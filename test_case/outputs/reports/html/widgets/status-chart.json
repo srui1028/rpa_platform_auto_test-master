@@ -1,0 +1,131 @@
+[ {
+  "uid" : "ed0e8cc27616ae11",
+  "name" : "Scenario 11 需求流程审核通过启用后再禁用流程",
+  "time" : {
+    "start" : 1652265946449,
+    "stop" : 1652266004994,
+    "duration" : 58545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aab3af3ac0d5afc2",
+  "name" : "Scenario 8 需求验收通过后，审核通过流程，(status：8)",
+  "time" : {
+    "start" : 1652265796815,
+    "stop" : 1652265844420,
+    "duration" : 47605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42c1d5f1da78b1c9",
+  "name" : "Scenario 14 立即执行流程，选择一个非空闲可用的机器人，会生成待运行的任务",
+  "time" : {
+    "start" : 1652266076894,
+    "stop" : 1652266148108,
+    "duration" : 71214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffc4c6cbfec51182",
+  "name" : "Scenario 6 创建一个待验收的需求(发布关联需求的流程到卓越中心)(status：6)",
+  "time" : {
+    "start" : 1652265718537,
+    "stop" : 1652265754290,
+    "duration" : 35753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f44f7cb90b629de8",
+  "name" : "Scenario 13 立即执行流程，选择一个空闲可用的机器人，会生成待运行or运行中的任务任务",
+  "time" : {
+    "start" : 1652266005015,
+    "stop" : 1652266076873,
+    "duration" : 71858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "630fd967f5796523",
+  "name" : "Scenario 4 创建一个待开发的需求(status：4)",
+  "time" : {
+    "start" : 1652265660957,
+    "stop" : 1652265686378,
+    "duration" : 25421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a489899833341027",
+  "name" : "Scenario 1 创建一个待提交的需求(status：1)",
+  "time" : {
+    "start" : 1652265618693,
+    "stop" : 1652265626883,
+    "duration" : 8190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd7bc93a2ff99c36",
+  "name" : "Scenario 2 创建一个待评估的需求(status：2)",
+  "time" : {
+    "start" : 1652265626901,
+    "stop" : 1652265639092,
+    "duration" : 12191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6fe28c9a23e64d",
+  "name" : "Scenario 5 创建一个待发布的需求(status：5)",
+  "time" : {
+    "start" : 1652265686403,
+    "stop" : 1652265718513,
+    "duration" : 32110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb73e0fb85c03f63",
+  "name" : "Scenario 10 需求流程审核通过后启用流程",
+  "time" : {
+    "start" : 1652265892083,
+    "stop" : 1652265946426,
+    "duration" : 54343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1439f2ceaf51c376",
+  "name" : "Scenario 3 创建一个待审批的需求(status：3)",
+  "time" : {
+    "start" : 1652265639119,
+    "stop" : 1652265660935,
+    "duration" : 21816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eea1417696279761",
+  "name" : "Scenario 7 创建一个验收通过的需求(status：7)",
+  "time" : {
+    "start" : 1652265754315,
+    "stop" : 1652265796788,
+    "duration" : 42473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5a8aae530c38107",
+  "name" : "Scenario 9 需求验收通过后，流程审核失败，(需求状态变为status为5:待发布)",
+  "time" : {
+    "start" : 1652265844444,
+    "stop" : 1652265892075,
+    "duration" : 47631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

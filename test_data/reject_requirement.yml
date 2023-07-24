@@ -1,0 +1,14 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: POST
+  headers:
+    Authorization:
+-
+  detail: 驳回需求，创建一个"已驳回"的需求(status：15)
+  data:
+    current_operator: "dwxbxntest4"
+    failReason: "这是驳回原因"
+    pass: false
+    status: 15
+  resp:
+    code: 200

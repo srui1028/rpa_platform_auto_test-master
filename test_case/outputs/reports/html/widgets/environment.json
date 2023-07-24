@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "huaweicloud_province" ],
+  "name" : "env"
+}, {
+  "values" : [ "" ],
+  "name" : "mark"
+} ]

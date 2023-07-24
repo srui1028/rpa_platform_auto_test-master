@@ -1,0 +1,302 @@
+{
+  "uid" : "630fd967f5796523",
+  "name" : "Scenario 4 创建一个待开发的需求(status：4)",
+  "fullName" : "test_case.test_requirements_line.TestRequirementLine#test_requirement",
+  "historyId" : "57275c6ad53a6d6ed31e1f61ac2a85d7",
+  "time" : {
+    "start" : 1652265660957,
+    "stop" : 1652265686378,
+    "duration" : 25421
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "rpa_platform_token",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616520,
+      "duration" : 255
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "cenpprop",
+    "time" : {
+      "start" : 1652265660953,
+      "stop" : 1652265660953,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_status_name",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "set_base_url",
+    "time" : {
+      "start" : 1652265616520,
+      "stop" : 1652265616520,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "is_isc",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "set_db_engine",
+    "time" : {
+      "start" : 1652265616520,
+      "stop" : 1652265616635,
+      "duration" : 115
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_env",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestRequirementLine",
+    "time" : {
+      "start" : 1652265616636,
+      "stop" : 1652265618689,
+      "duration" : 2053
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_status_type",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "add_allure_environment_property",
+    "time" : {
+      "start" : 1652265616265,
+      "stop" : 1652265616265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "set_user_header",
+    "time" : {
+      "start" : 1652265616635,
+      "stop" : 1652265616636,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRequirementLine::0",
+    "time" : {
+      "start" : 1652266148125,
+      "stop" : 1652266148125,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "add_allure_environment_property::0",
+    "time" : {
+      "start" : 1652266148140,
+      "stop" : 1652266148141,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "创建需求-流程-任务数据"
+  }, {
+    "name" : "tag",
+    "value" : "all"
+  }, {
+    "name" : "tag",
+    "value" : "requirement"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_requirements_line"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequirementLine"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PIMS4B6M"
+  }, {
+    "name" : "thread",
+    "value" : "26404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_requirements_line"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "confirm_develop_data",
+    "value" : "{}"
+  }, {
+    "name" : "create_data",
+    "value" : "{'businessLabel': 'YGTAG', 'c0db23': '55', 'description': 'This is description', 'name': 'YGREQ0316005pc', 'operateStep': 'This is operateion Step', 'organization': 'xxxxxxxxxxxx', 'process_owner': 'dwxbxntest29', 'status': 1, 'useSystem': '系统3', 'userNum': '22'}"
+  }, {
+    "name" : "detail",
+    "value" : "'Scenario 4 创建一个待开发的需求(status：4)'"
+  }, {
+    "name" : "estimate_data",
+    "value" : "{'automationRatio': 22, 'current_operator': 'dwxbxntest3', 'developmentDuration': 11, 'docs': '', 'opinion': 'This is opinion', 'projectAppraisalDocument': '[]', 'status': 3}"
+  }, {
+    "name" : "process_enable",
+    "value" : "{}"
+  }, {
+    "name" : "process_estimate",
+    "value" : "{}"
+  }, {
+    "name" : "process_for_requriement_release",
+    "value" : "{}"
+  }, {
+    "name" : "release_acceptance",
+    "value" : "{}"
+  }, {
+    "name" : "release_to_app_store",
+    "value" : "{}"
+  }, {
+    "name" : "resp",
+    "value" : "{'code': 200}"
+  }, {
+    "name" : "run_process",
+    "value" : "{}"
+  }, {
+    "name" : "select_robots_for_run_process",
+    "value" : "{}"
+  }, {
+    "name" : "submit_data",
+    "value" : "{'current_operator': 'dwxbxntest4', 'status': 2}"
+  }, {
+    "name" : "verify_data",
+    "value" : "{'current_operator': 'dwxbxntest3', 'design': 1123512485363969, 'developer': 'dwxbtest006', 'pass': True, 'priority': 1, 'status': 4}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "all", "requirement" ]
+  },
+  "source" : "630fd967f5796523.json",
+  "parameterValues" : [ "{}", "{'businessLabel': 'YGTAG', 'c0db23': '55', 'description': 'This is description', 'name': 'YGREQ0316005pc', 'operateStep': 'This is operateion Step', 'organization': 'xxxxxxxxxxxx', 'process_owner': 'dwxbxntest29', 'status': 1, 'useSystem': '系统3', 'userNum': '22'}", "'Scenario 4 创建一个待开发的需求(status：4)'", "{'automationRatio': 22, 'current_operator': 'dwxbxntest3', 'developmentDuration': 11, 'docs': '', 'opinion': 'This is opinion', 'projectAppraisalDocument': '[]', 'status': 3}", "{}", "{}", "{}", "{}", "{}", "{'code': 200}", "{}", "{}", "{'current_operator': 'dwxbxntest4', 'status': 2}", "{'current_operator': 'dwxbxntest3', 'design': 1123512485363969, 'developer': 'dwxbtest006', 'pass': True, 'priority': 1, 'status': 4}" ]
+}

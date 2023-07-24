@@ -1,0 +1,63 @@
+-
+  url: /gateway/ac/api/private/v1/plugins
+  method: GET
+  headers:
+    Authorization:
+- url: /gateway/orchcompact/robot-actuator/list
+  method: GET
+  headers:
+    Authorization:
+- url: /cap/data-way/v1/application/overview
+  method: GET
+  headers:
+    Authorization:
+- #获取总需求数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 验证应用市场上架总数与数据概览的应用市场上架总数，包括流程和组件
+  zbody:
+    data:
+      page: 1
+      size: 10
+#      pluginType: 2
+      statusList: 0
+      deleted: 0
+      sort: modifiedAt,desc
+    resp:
+      code: 200
+  vzbody:
+    data:
+#      page: 1
+#      size: 10
+#      statusList: 1
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+#    resp:
+      code: 200
+- #获取总需求数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 验证应用市场上架总数与数据概览的应用市场驳回总数和驳回率，包括流程和组件
+  zbody:
+    data:
+      page: 1
+      size: 10
+#      pluginType: 2
+      statusList: 2
+      deleted: 0
+      sort: modifiedAt,desc
+    resp:
+      code: 200
+  vzbody:
+    data:
+#      page: 1
+#      size: 10
+#      statusList: 1
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+    resp:
+      code: 200

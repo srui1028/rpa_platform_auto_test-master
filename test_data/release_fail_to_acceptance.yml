@@ -1,0 +1,14 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 创建一个验收失败后状态变为待发布的需求(status：5)
+  data:
+    current_operator: "youga_yewu"
+    failReason: "333"
+    pass: false
+    status: 16
+  resp:
+    code: 200

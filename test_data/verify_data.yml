@@ -1,0 +1,16 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: POST
+  headers:
+    Authorization:
+- #test_requirement_001用例
+  detail: 管理员审批需求，指派开发，创建一个"待开发"的需求(status：4)
+  data:
+    current_operator: "dwxbxntest3"
+    design: 1123512485363969  #云桌面的id --对应rpa_orc_serv_cloud_desktop
+    developer: "dwxbtest006"
+    pass: True
+    priority: 1
+    status: 4
+  resp:
+    code: 200

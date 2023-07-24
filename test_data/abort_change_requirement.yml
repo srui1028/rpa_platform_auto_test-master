@@ -1,0 +1,14 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 管理员操作驳回需求变更，状态变为“待开发”(status：4)
+  data:
+    current_operator: "admin"
+    failReason: "自动化测试驳回需求变更，这是驳回需求变更原因"
+    pass: false
+    status: 13
+  resp:
+    code: 0

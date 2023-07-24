@@ -1,0 +1,62 @@
+-
+  url: /be/api/v1/requirement/
+  method: GET
+  headers:
+    Authorization:
+-
+  url: /gateway/orchcompact/api/v1/process-info/get
+  method: POST
+  headers:
+    Authorization:
+- url: /cap/data-way/v1/requirement/overview
+  method: GET
+  headers:
+    Authorization:
+- #获取总需求数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 验证需求总数
+  zbody:
+    data:
+      page: 1
+      size: 10
+      excludeStatus: 1
+      sort: modifiedAt,desc
+      stageStatus: 1,2,3
+    resp:
+      code: 200
+  vzbody:
+    data:
+      page: 1
+      size: 10
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+    resp:
+      code: 200
+- #获取组织下钻后的总需求数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 验证组织下钻后的需求总数
+  zbody:
+    data:
+      page: 1
+      size: 10
+      excludeStatus: 1
+      organizations: 1
+      sort: modifiedAt,desc
+      stageStatus: 1,2,3
+    resp:
+      code: 200
+  vzbody: #需求没有需求中控，此处忽略，不生效
+    data:
+      page: 1
+      size: 10
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+      org_id: 1
+    resp:
+      code: 200

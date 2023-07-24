@@ -1,0 +1,11 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 开发人员发布需求，需求状态变为待验收(status：6)
+  data:
+    status: 6
+  resp:
+    code: 200

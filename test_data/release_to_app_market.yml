@@ -1,0 +1,24 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 发布流程至应用市场,即创建一个上架状态的流程类型的应用
+  data:
+    authorId: 3
+    authorName: "admin"
+    fileUrl: "Process/26E002145BF9618DC6E7E0446BA7C68D/mrpas/DD.mrpax"
+    iconData: "default"
+    id: xxxxxxxxxxxx  #robot_process_id
+    introduction: "3412"
+    isPublic: 0
+    organizationIds: [xxxxxxxxxx] #[ 1118403579721472 ]
+    pluginId: XXXXXXXXXXXXXXX        #plugin_id即流程id,即process_info表中的id
+    pluginName: "XX"
+    resourceSn: "XXXXXXXXXXXXXXXXXXXXX"  #"ad441929-3132-4e76-b1e2-4fb5c4b06695"
+    tagIds: [ XXXXXXXXXXXXXXXX ] #[ 1121982714541824 ]
+    version: "1.0.0"
+    versionDesc: "introduction"
+  resp:
+    code: 0

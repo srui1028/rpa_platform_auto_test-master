@@ -1,0 +1,13 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 管理员操作确认需求变更，状态变为“待提交”(status：1)
+  data:
+    current_operator: "admin"
+    pass: true
+    status: 12
+  resp:
+    code: 0

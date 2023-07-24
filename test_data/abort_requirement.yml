@@ -1,0 +1,12 @@
+-
+  url: /be/hyperpm/process-definition/demo/Process_1dureiv
+  method: PUT
+  headers:
+    Authorization:
+-
+  detail: 终止一个需求(status：10)
+  data:
+    failReason: "测试化测试终止需求，这是终止需求原因"
+    status: 10
+  resp:
+    code: 0

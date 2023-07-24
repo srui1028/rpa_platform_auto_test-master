@@ -1,0 +1,59 @@
+-
+  url: /gateway/orc-serv/api/private/v1/robots/search
+  method: GET
+  headers:
+    Authorization:
+- url: /gateway/orchcompact/robot-actuator/list
+  method: GET
+  headers:
+    Authorization:
+- url: /cap/data-way/v1/robot/num
+  method: GET
+  headers:
+    Authorization:
+- #获取机器人总数 ----http://172:26:144:133:3000/gateway/ac/api/private/v1/requirement?page=1&size=10&name=&excludeStatus=1&sort=modifiedAt,desc&createBy=&status=2,3,4,5,6,7,8:
+  detail: 验证机器人总数
+  zbody:
+    data:
+      page: 0
+      size: 10
+      sort: name,asc
+    resp:
+      code: 200
+  vzbody:
+    data:
+      page: 1
+      size: 10
+      isBound: true   #是否绑定许可证
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+    resp:
+      code: 200
+- #获取组织下钻后的机器人总数
+  detail: 获取组织下钻后的机器人总数
+  zbody:
+    data:
+      page: 0
+      size: 10
+      sort: name,asc
+      organizationIds: 1   #中控机器人列表的组织参数，虽然有这个参数，但是看直来这个参数是不生效的
+    resp:
+      code: 200
+  vzbody:
+    data:
+      page: 1
+      size: 10
+      isBound: true   #是否绑定许可证
+    resp:
+      code: 200
+  dbody:
+    data:
+#      site_code: SHDW
+      site_code: GWZB
+      org_id: 1
+    resp:
+      code: 200
